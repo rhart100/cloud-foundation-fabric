@@ -15,3 +15,14 @@
 # yaml-language-server: $schema=../../../../schemas/folder.schema.json
 
 name: Data Platform
+iam_by_principals:
+  $iam_principals:service_accounts/iac-0/iac-dp-dev-rw:
+    - roles/owner
+    - roles/resourcemanager.folderAdmin
+    - roles/resourcemanager.tagUser
+  $iam_principals:service_accounts/iac-0/iac-dp-dev-ro:
+    # uncomment if you want to use Assured Workloads
+    # - roles/assuredworkloads.reader
+    - roles/viewer
+    - roles/resourcemanager.folderViewer
+    - roles/resourcemanager.tagViewer
