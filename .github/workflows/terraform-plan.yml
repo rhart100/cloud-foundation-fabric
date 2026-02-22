@@ -1,0 +1,38 @@
+name: Terraform Plan
+
+on:
+  pull_request:
+    branches: [ "fast-dev", "prod" ]
+
+permissions:
+  id-token: write   # required to fetch OIDC token
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: 'auth'
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: 'projects/155157708409/locations/global/workloadIdentityPools/default/providers/github-default'
+          service_account: 'iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com'
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform init & plan
+        working-directory: fast/stages/0-org-setup
+        run: |
+          # ensure the CI copies the plan provider file (RO) so plan uses the RO provider
+          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup-providers-ro.tf providers.tf || true
+          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup.auto.tfvars.json 0-org-setup.auto.tfvars.json || true
+          terraform init -input=false
+          terraform plan -out=tfplan
+      - name: Upload plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: tfplan
+          path: tfplan

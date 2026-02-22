@@ -1,0 +1,33 @@
+name: Terraform Apply
+
+on:
+  push:
+    branches: [ "prod" ]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: 'auth'
+        uses: google-github-actions/auth@v1
+        with:
+          workload_identity_provider: 'projects/155157708409/locations/global/workloadIdentityPools/default/providers/github-default'
+          service_account: 'iac-org-cicd-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com'
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform init & apply
+        working-directory: fast/stages/0-org-setup
+        run: |
+          # copy the apply (RW) provider file into place
+          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup-providers.tf providers.tf || true
+          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup.auto.tfvars.json 0-org-setup.auto.tfvars.json || true
+          terraform init -input=false
+          terraform apply -auto-approve
