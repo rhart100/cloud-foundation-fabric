@@ -41,6 +41,18 @@ jobs:
           workload_identity_provider: 'projects/155157708409/locations/global/workloadIdentityPools/default/providers/github-default'
           service_account: 'iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com'
 
+        # Set up the Google Cloud SDK
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      # Run the copy command
+      - name: 'Download Provider File'
+        run: |
+          # download into the terraform working directory so files are available when running there
+          mkdir -p fast/stages/0-org-setup
+          gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/providers/0-org-setup-providers.tf fast/stages/0-org-setup/ || true
+          gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/tfvars/0-org-setup.auto.tfvars.json fast/stages/0-org-setup/ || true
+
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
 
@@ -54,6 +66,7 @@ jobs:
           terraform plan -out=tfplan
       - name: Upload plan
         uses: actions/upload-artifact@v4
+        # the plan file is created in the terraform working-directory
         with:
           name: tfplan
-          path: tfplan
+          path: fast/stages/0-org-setup/tfplan
