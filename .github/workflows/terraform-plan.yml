@@ -39,7 +39,7 @@ jobs:
         uses: google-github-actions/auth@v1
         with:
           workload_identity_provider: 'projects/155157708409/locations/global/workloadIdentityPools/default/providers/github-default'
-          service_account: 'iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com
+          service_account: 'iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com'
 
       - name: Debug active identity
         run: |
