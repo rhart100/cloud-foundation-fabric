@@ -41,6 +41,15 @@ jobs:
           workload_identity_provider: 'projects/155157708409/locations/global/workloadIdentityPools/default/providers/github-default'
           service_account: 'iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com'
 
+      - name: Debug active identity
+        run: |
+          echo "gcloud auth list:"
+          gcloud auth list || true
+          echo "gcloud config account:"
+          gcloud config get-value account || true
+          echo "print-access-token (truncated):"
+          gcloud auth print-access-token | head -c 200 || true
+
         # Set up the Google Cloud SDK
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v2'
