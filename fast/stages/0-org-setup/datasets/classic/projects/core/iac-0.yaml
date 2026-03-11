@@ -190,6 +190,8 @@ service_accounts:
       $service_account_ids:iac-0/iac-org-rw:
         - roles/iam.workloadIdentityUser
         - roles/iam.serviceAccountTokenCreator
+      $service_account_ids:iac-0/iac-org-ro:
+        - roles/iam.serviceAccountTokenCreator
       $service_account_ids:iac-0/iac-org-cicd-rw:
         - roles/iam.serviceAccountTokenCreator
   # IaC service accounts for vpc-sc stage
