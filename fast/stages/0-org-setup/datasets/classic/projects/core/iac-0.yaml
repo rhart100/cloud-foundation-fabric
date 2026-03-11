@@ -167,8 +167,14 @@ service_accounts:
   # IaC service accounts for this stage
   iac-org-ro:
     display_name: IaC service account for org setup (read-only).
+    iam_sa_roles:
+      $service_account_ids:iac-0/iac-org-ro:
+        - roles/iam.serviceAccountTokenCreator
   iac-org-rw:
     display_name: IaC service account for org setup (read-write).
+    iam_sa_roles:
+      $service_account_ids:iac-0/iac-org-rw:
+        - roles/iam.serviceAccountTokenCreator
   # CI/CD service accounts for this stage
   iac-org-cicd-ro:
     display_name: IaC service account for org setup CI/CD (read-only).
