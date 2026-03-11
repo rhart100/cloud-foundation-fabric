@@ -72,7 +72,7 @@ jobs:
           cp datasets/classic/0-org-setup-providers-ro.tf providers.tf || true
           cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
           terraform init -input=false
-          terraform plan -out=tfplan
+          terraform plan -out=tfplan -lock=false
       - name: Upload plan
         uses: actions/upload-artifact@v4
         # the plan file is created in the terraform working-directory
