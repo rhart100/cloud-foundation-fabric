@@ -52,10 +52,10 @@ jobs:
 
       - name: Terraform Init
         run: |
-        # copy the apply (RW) provider and variables files into place
-        cp datasets/classic/0-org-setup-providers-rw.tf providers.tf || true
-        cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
-        terraform init -input=false
+          # copy the apply (RW) provider and variables files into place
+          cp datasets/classic/0-org-setup-providers-rw.tf providers.tf || true
+          cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
+          terraform init -input=false
 
       # Run Plan for PRs to verify changes before merge
       - name: Terraform Plan
