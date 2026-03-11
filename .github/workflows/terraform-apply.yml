@@ -19,6 +19,10 @@ on:
     branches: [ "prod" ]
     paths:
       - 'fast/stages/0-org-setup/**'
+  push:                               
+    branches: [ "prod" ]              
+    paths:                            
+      - 'fast/stages/0-org-setup/**' 
   workflow_dispatch:
 
 permissions:
