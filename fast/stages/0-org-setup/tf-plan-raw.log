@@ -1,0 +1,396 @@
+[0m[1mmodule.factory.terraform_data.project-preconditions: Refreshing state... [id=f115de8a-a917-bf13-2ec2-c6f1526e4b2f][0m
+[0m[1mmodule.factory.terraform_data.defaults_preconditions: Refreshing state... [id=c803af52-5a31-8b2c-a7b2-a6bb99bbbec2][0m
+[0m[1mterraform_data.precondition: Refreshing state... [id=3a4a0211-2013-210d-95c4-0a63179d9264][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["tag_viewer"]: Refreshing state... [id=organizations/845016637229/roles/tagViewer][0m
+[0m[1mmodule.organization[0].google_logging_organization_settings.default[0]: Refreshing state... [id=organizations/845016637229/settings][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["ngfw_enterprise_admin"]: Refreshing state... [id=organizations/845016637229/roles/ngfwEnterpriseAdmin][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["service_project_network_admin"]: Refreshing state... [id=organizations/845016637229/roles/serviceProjectNetworkAdmin][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["project_iam_viewer"]: Refreshing state... [id=organizations/845016637229/roles/projectIamViewer][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["ngfw_enterprise_viewer"]: Refreshing state... [id=organizations/845016637229/roles/ngfwEnterpriseViewer][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["network_firewall_policies_admin"]: Refreshing state... [id=organizations/845016637229/roles/networkFirewallPoliciesAdmin][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["storage_viewer"]: Refreshing state... [id=organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["organization_admin_viewer"]: Refreshing state... [id=organizations/845016637229/roles/organizationAdminViewer][0m
+[0m[1mmodule.organization[0].google_organization_iam_custom_role.roles["organization_iam_admin"]: Refreshing state... [id=organizations/845016637229/roles/organizationIamAdmin][0m
+[0m[1mmodule.organization[0].google_tags_tag_key.default["context"]: Refreshing state... [id=tagKeys/281475303560585][0m
+[0m[1mmodule.organization[0].google_tags_tag_key.default["environment"]: Refreshing state... [id=tagKeys/281480289258649][0m
+[0m[1mmodule.organization[0].google_tags_tag_key.default["org-policies"]: Refreshing state... [id=tagKeys/281482128571513][0m
+[0m[1mmodule.organization[0].google_tags_tag_value.default["environment/production"]: Refreshing state... [id=tagValues/281477749589446][0m
+[0m[1mmodule.organization[0].google_tags_tag_value.default["org-policies/allowed-policy-member-domains-all"]: Refreshing state... [id=tagValues/281484691357378][0m
+[0m[1mmodule.organization[0].google_tags_tag_value.default["org-policies/allowed-essential-contacts-domains-all"]: Refreshing state... [id=tagValues/281483693260065][0m
+[0m[1mmodule.organization[0].google_tags_tag_value.default["context/project-factory"]: Refreshing state... [id=tagValues/281478162293561][0m
+[0m[1mmodule.organization[0].google_tags_tag_value.default["environment/development"]: Refreshing state... [id=tagValues/281482733144017][0m
+[0m[1mmodule.organization[0].google_essential_contacts_contact.contact["$email_addresses:gcp-organization-admins"]: Refreshing state... [id=organizations/845016637229/contacts/0][0m
+[0m[1mmodule.factory.module.folder-1["teams"].google_folder.folder[0]: Refreshing state... [id=folders/918981503705][0m
+[0m[1mmodule.factory.module.folder-1["networking\\prod"].google_folder.folder[0]: Refreshing state... [id=folders/485892088485][0m
+[0m[1mmodule.factory.module.folder-1["networking"].google_folder.folder[0]: Refreshing state... [id=folders/256485990220][0m
+[0m[1mmodule.factory.module.folder-1["data-platform\\prod"].google_folder.folder[0]: Refreshing state... [id=folders/357318080107][0m
+[0m[1mmodule.factory.module.folder-1["security\\dev"].google_folder.folder[0]: Refreshing state... [id=folders/388395262491][0m
+[0m[1mmodule.factory.module.folder-1["networking\\dev"].google_folder.folder[0]: Refreshing state... [id=folders/127796064274][0m
+[0m[1mmodule.factory.module.folder-1["data-platform"].google_folder.folder[0]: Refreshing state... [id=folders/407578046274][0m
+[0m[1mmodule.factory.module.folder-1["data-platform\\dev"].google_folder.folder[0]: Refreshing state... [id=folders/245169708885][0m
+[0m[1mmodule.factory.module.folder-1["security"].google_folder.folder[0]: Refreshing state... [id=folders/805414191570][0m
+[0m[1mmodule.factory.module.folder-1["security\\prod"].google_folder.folder[0]: Refreshing state... [id=folders/810192759016][0m
+[0m[1mmodule.factory.module.folder-1["networking\\prod"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F485892088485/tagValues/281477749589446][0m
+[0m[1mmodule.factory.module.folder-1["teams"].google_tags_tag_binding.binding["context"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F918981503705/tagValues/281478162293561][0m
+[0m[1mmodule.factory.module.folder-1["security\\prod"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F810192759016/tagValues/281477749589446][0m
+[0m[1mmodule.factory.module.folder-1["data-platform\\dev"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F245169708885/tagValues/281482733144017][0m
+[0m[1mmodule.factory.module.folder-1["security\\dev"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F388395262491/tagValues/281482733144017][0m
+[0m[1mmodule.factory.module.folder-1["data-platform\\prod"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F357318080107/tagValues/281477749589446][0m
+[0m[1mmodule.factory.module.folder-1["networking\\dev"].google_tags_tag_binding.binding["environment"]: Refreshing state... [id=tagBindings/%2F%2Fcloudresourcemanager.googleapis.com%2Ffolders%2F127796064274/tagValues/281482733144017][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project.project[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project.project[0]: Refreshing state... [id=projects/rjh01-prod-audit-logs-0][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project.project[0]: Refreshing state... [id=projects/rjh01-prod-billing-exp-0][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_monitoring_notification_channel.channels["email-security"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/notificationChannels/13265343684648798412][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.org_policy_service[0]: Refreshing state... [id=rjh01-prod-iac-core-0/orgpolicy.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_iam_workload_identity_pool.default["default"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/locations/global/workloadIdentityPools/default][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_logging_metric.metrics["sa-impersonation"]: Refreshing state... [id=sa-impersonation][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_iam_workload_identity_pool_provider.default["default/github-default"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/locations/global/workloadIdentityPools/default/providers/github-default][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_monitoring_alert_policy.alerts["sa-impersonation-alert"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/alertPolicies/2783090646763055361][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_org_policy_policy.default["iam.workloadIdentityPoolProviders"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/policies/iam.workloadIdentityPoolProviders][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["container.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/container.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project_service.project_services["bigquerydatatransfer.googleapis.com"]: Refreshing state... [id=rjh01-prod-billing-exp-0/bigquerydatatransfer.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudkms.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudkms.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudasset.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudasset.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["bigquerystorage.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/bigquerystorage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudbilling.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudbilling.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["bigquery.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/bigquery.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["compute.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/compute.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project_service.project_services["storage.googleapis.com"]: Refreshing state... [id=rjh01-prod-audit-logs-0/storage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project_service.project_services["storage.googleapis.com"]: Refreshing state... [id=rjh01-prod-billing-exp-0/storage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudquotas.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudquotas.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project_service.project_services["pubsub.googleapis.com"]: Refreshing state... [id=rjh01-prod-audit-logs-0/pubsub.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["iamcredentials.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/iamcredentials.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["sts.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/sts.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudresourcemanager.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudresourcemanager.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["servicenetworking.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/servicenetworking.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["pubsub.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/pubsub.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["logging.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/logging.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["monitoring.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/monitoring.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["networksecurity.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/networksecurity.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["datacatalog.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/datacatalog.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["storage-component.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/storage-component.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["storage.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/storage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["iam.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/iam.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["accesscontextmanager.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/accesscontextmanager.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["cloudbuild.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/cloudbuild.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["serviceusage.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/serviceusage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["billingbudgets.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/billingbudgets.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["essentialcontacts.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/essentialcontacts.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service.project_services["bigqueryreservation.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/bigqueryreservation.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project_service.project_services["bigquery.googleapis.com"]: Refreshing state... [id=rjh01-prod-billing-exp-0/bigquery.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project_service.project_services["logging.googleapis.com"]: Refreshing state... [id=rjh01-prod-audit-logs-0/logging.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_bigquery_default_service_account.bq_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_storage_project_service_account.gcs_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["log-0"].data.google_storage_project_service_account.gcs_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["billing-0"].data.google_storage_project_service_account.gcs_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["billing-0"].data.google_bigquery_default_service_account.bq_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["monitoring.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/monitoring.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project_service_identity.default["pubsub.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-audit-logs-0/services/pubsub.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["pubsub.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/pubsub.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["container.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/container.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["servicenetworking.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/servicenetworking.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["cloudasset.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/cloudasset.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["cloudkms.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/cloudkms.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_service_identity.default["networksecurity.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/services/networksecurity.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project_service_identity.default["bigquerydatatransfer.googleapis.com"]: Refreshing state... [id=projects/rjh01-prod-billing-exp-0/services/bigquerydatatransfer.googleapis.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].data.google_logging_project_settings.logging_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_logging_project_settings.logging_sa[0]: Reading...[0m[0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["container-engine-robot"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/container.serviceAgent/serviceAccount:service-155157708409@container-engine-robot.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["service-networking"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/servicenetworking.serviceAgent/serviceAccount:service-155157708409@service-networking.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["cloudkms"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudkms.serviceAgent/serviceAccount:service-155157708409@gcp-sa-cloudkms.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].data.google_logging_project_settings.logging_sa[0]: Read complete after 1s [id=projects/rjh01-prod-audit-logs-0/settings][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["cloudbuild"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudbuild.serviceAgent/serviceAccount:service-155157708409@gcp-sa-cloudbuild.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_logging_project_settings.logging_sa[0]: Read complete after 1s [id=projects/rjh01-prod-iac-core-0/settings][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["monitoring-notification"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/monitoring.notificationServiceAgent/serviceAccount:service-155157708409@gcp-sa-monitoring-notification.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["compute-system"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/compute.serviceAgent/serviceAccount:service-155157708409@compute-system.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_storage_project_service_account.gcs_sa[0]: Read complete after 1s [id=service-155157708409@gs-project-accounts.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["cloudasset"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudasset.serviceAgent/serviceAccount:service-155157708409@gcp-sa-cloudasset.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].data.google_storage_project_service_account.gcs_sa[0]: Read complete after 1s [id=service-76135709785@gs-project-accounts.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].google_project_iam_member.service_agents["bigquerydatatransfer"]: Refreshing state... [id=rjh01-prod-billing-exp-0/roles/bigquerydatatransfer.serviceAgent/serviceAccount:service-76135709785@gcp-sa-bigquerydatatransfer.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["billing-0"].data.google_bigquery_default_service_account.bq_sa[0]: Read complete after 1s [id=bq-76135709785@bigquery-encryption.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["pubsub"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/pubsub.serviceAgent/serviceAccount:service-155157708409@gcp-sa-pubsub.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].data.google_bigquery_default_service_account.bq_sa[0]: Read complete after 1s [id=bq-155157708409@bigquery-encryption.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["cloudbuild-sa"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudbuild.builds.builder/serviceAccount:155157708409@cloudbuild.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].data.google_storage_project_service_account.gcs_sa[0]: Read complete after 1s [id=service-53456361237@gs-project-accounts.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["log-0"].google_project_iam_member.service_agents["pubsub"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/pubsub.serviceAgent/serviceAccount:service-53456361237@gcp-sa-pubsub.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects["iac-0"].google_project_iam_member.service_agents["gkenode"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/container.defaultNodeServiceAgent/serviceAccount:service-155157708409@gcp-sa-gkenode.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-pf-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-pf-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-org-cicd-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-vpcsc-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-vpcsc-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-org-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-vpcsc-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-vpcsc-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-org-cicd-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-cicd-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-security-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-security-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-networking-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-networking-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-dp-dev-ro"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-dp-dev-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-networking-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-networking-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-org-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-pf-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-pf-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-security-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-security-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service-accounts["iac-0/iac-dp-dev-rw"].google_service_account.service_account[0]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-dp-dev-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service_accounts-iam["iac-0/iac-org-cicd-ro"].google_service_account_iam_member.additive["$service_account_ids:iac-0/iac-org-ro-roles/iam.serviceAccountTokenCreator"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com/roles/iam.serviceAccountTokenCreator/serviceAccount:iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service_accounts-iam["iac-0/iac-org-cicd-ro"].google_service_account_iam_member.additive["$service_account_ids:iac-0/iac-org-ro-roles/iam.workloadIdentityUser"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/serviceAccount:iac-org-cicd-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service_accounts-iam["iac-0/iac-org-cicd-rw"].google_service_account_iam_member.additive["$service_account_ids:iac-0/iac-org-rw-roles/iam.workloadIdentityUser"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com/roles/iam.workloadIdentityUser/serviceAccount:iac-org-cicd-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.service_accounts-iam["iac-0/iac-org-cicd-rw"].google_service_account_iam_member.additive["$service_account_ids:iac-0/iac-org-rw-roles/iam.serviceAccountTokenCreator"]: Refreshing state... [id=projects/rjh01-prod-iac-core-0/serviceAccounts/iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com/roles/iam.serviceAccountTokenCreator/serviceAccount:iac-org-cicd-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_audit_config.default["storage.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/audit_config/storage.googleapis.com][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_audit_config.default["iam.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/audit_config/iam.googleapis.com][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.bindings["project_factory"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.projectIamAdmin/Project factory delegated IAM grant.//api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', []).hasOnly([
+  'roles/compute.networkUser', 'roles/composer.sharedVpcAgent',
+  'roles/container.hostServiceAgentUser', 'roles/vpcaccess.user'
+])
+][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=folders/805414191570/roles/viewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_audit_config.default["sts.googleapis.com"]: Refreshing state... [id=rjh01-prod-iac-core-0/audit_config/sts.googleapis.com][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking\\dev"].google_folder_iam_binding.bindings["dp_dev"]: Refreshing state... [id=folders/127796064274/roles/resourcemanager.projectIamAdmin/Data platform dev delegated IAM grant.//api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', []).hasOnly([
+  'organizations/845016637229/roles/serviceProjectNetworkAdmin'
+])
+][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.bindings["dp_dev_ro"]: Refreshing state... [id=folders/256485990220/roles/compute.networkViewer/Data platform dev network viewer.//resource.matchTag('845016637229/environment', 'development')
+][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.bindings["project_factory"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.projectIamAdmin/Project factory delegated IAM grant.//api.getAttribute('iam.googleapis.com/modifiedGrantsByRole', []).hasOnly([
+  'roles/cloudkms.cryptoKeyEncrypterDecrypter'
+])
+][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["$custom_roles:project_iam_viewer"]: Refreshing state... [id=folders/805414191570/organizations/845016637229/roles/projectIamViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["$custom_roles:project_iam_viewer"]: Refreshing state... [id=folders/256485990220/organizations/845016637229/roles/projectIamViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagUser"]: Refreshing state... [id=folders/407578046274/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["$custom_roles:service_project_network_admin"]: Refreshing state... [id=folders/256485990220/organizations/845016637229/roles/serviceProjectNetworkAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=folders/245169708885/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.bindings["dp_dev_rw"]: Refreshing state... [id=folders/256485990220/organizations/845016637229/roles/serviceProjectNetworkAdmin/Data platform dev service project admin.//resource.matchTag('845016637229/environment', 'development')
+][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking\\dev"].google_folder_iam_binding.authoritative["$custom_roles:project_iam_viewer"]: Refreshing state... [id=folders/127796064274/organizations/845016637229/roles/projectIamViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=folders/245169708885/roles/viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=folders/918981503705/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/logging.admin"]: Refreshing state... [id=folders/245169708885/roles/logging.admin][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/compute.viewer"]: Refreshing state... [id=folders/256485990220/roles/compute.viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=folders/245169708885/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=folders/256485990220/roles/owner][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=folders/918981503705/roles/viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=folders/245169708885/roles/owner][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=folders/407578046274/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/resourcemanager.projectCreator"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.projectCreator][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagUser"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=folders/805414191570/roles/owner][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=folders/918981503705/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/cloudkms.cryptoKeyEncrypterDecrypter"]: Refreshing state... [id=folders/805414191570/roles/cloudkms.cryptoKeyEncrypterDecrypter][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/resourcemanager.projectCreator"]: Refreshing state... [id=folders/918981503705/roles/resourcemanager.projectCreator][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/logging.admin"]: Refreshing state... [id=folders/256485990220/roles/logging.admin][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=folders/407578046274/roles/owner][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagUser"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagUser"]: Refreshing state... [id=folders/918981503705/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/compute.xpnAdmin"]: Refreshing state... [id=folders/256485990220/roles/compute.xpnAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagViewer"]: Refreshing state... [id=folders/918981503705/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagViewer"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/cloudkms.viewer"]: Refreshing state... [id=folders/805414191570/roles/cloudkms.viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=folders/407578046274/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=folders/407578046274/roles/viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/resourcemanager.projectCreator"]: Refreshing state... [id=folders/245169708885/roles/resourcemanager.projectCreator][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/resourcemanager.projectCreator"]: Refreshing state... [id=folders/256485990220/roles/resourcemanager.projectCreator][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform\\dev"].google_folder_iam_binding.authoritative["roles/compute.xpnAdmin"]: Refreshing state... [id=folders/245169708885/roles/compute.xpnAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["data-platform"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagViewer"]: Refreshing state... [id=folders/407578046274/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=folders/918981503705/roles/owner][0m
+[0m[1mmodule.factory.module.folder-1-iam["networking"].google_folder_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=folders/256485990220/roles/viewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/logging.admin"]: Refreshing state... [id=folders/805414191570/roles/logging.admin][0m
+[0m[1mmodule.factory.module.folder-1-iam["security"].google_folder_iam_binding.authoritative["roles/resourcemanager.tagViewer"]: Refreshing state... [id=folders/805414191570/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.factory.module.folder-1-iam["teams"].google_folder_iam_binding.authoritative["$custom_roles:service_project_network_admin"]: Refreshing state... [id=folders/918981503705/organizations/845016637229/roles/serviceProjectNetworkAdmin][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/cloudbuild.builds.viewer"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudbuild.builds.viewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/serviceusage.serviceUsageConsumer"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/serviceusage.serviceUsageConsumer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/iam.workloadIdentityPoolViewer"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/iam.workloadIdentityPoolViewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/iam.serviceAccountViewer"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/iam.serviceAccountViewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["$custom_roles:storage_viewer"]: Refreshing state... [id=rjh01-prod-iac-core-0/organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/iam.workloadIdentityPoolAdmin"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/iam.workloadIdentityPoolAdmin][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/viewer][0m
+[0m[1mmodule.factory.module.projects-iam["billing-0"].google_project_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=rjh01-prod-billing-exp-0/roles/viewer][0m
+[0m[1mmodule.factory.module.projects-iam["log-0"].google_project_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/owner][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/owner][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/iam.serviceAccountTokenCreator"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/iam.serviceAccountTokenCreator][0m
+[0m[1mmodule.factory.module.projects-iam["billing-0"].google_project_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=rjh01-prod-billing-exp-0/roles/owner][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/iam.serviceAccountAdmin"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/iam.serviceAccountAdmin][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/cloudbuild.builds.editor"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/cloudbuild.builds.editor][0m
+[0m[1mmodule.factory.module.projects-iam["log-0"].google_project_iam_binding.authoritative["roles/viewer"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/viewer][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/browser"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/browser][0m
+[0m[1mmodule.factory.module.projects-iam["iac-0"].google_project_iam_binding.authoritative["roles/storage.admin"]: Refreshing state... [id=rjh01-prod-iac-core-0/roles/storage.admin][0m
+[0m[1mmodule.factory.module.log-buckets["log-0/vpc-sc"].google_logging_project_bucket_config.bucket[0]: Refreshing state... [id=projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/vpc-sc][0m
+[0m[1mmodule.factory.module.log-buckets["log-0/iam"].google_logging_project_bucket_config.bucket[0]: Refreshing state... [id=projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/iam][0m
+[0m[1mmodule.factory.module.log-buckets["log-0/audit-logs"].google_logging_project_bucket_config.bucket[0]: Refreshing state... [id=projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/audit-logs][0m
+[0m[1mmodule.factory.module.bigquery-datasets["billing-0/billing_export"].google_bigquery_dataset.default: Refreshing state... [id=projects/rjh01-prod-billing-exp-0/datasets/billing_export][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_bucket.bucket[0]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-org-state"].google_storage_bucket.bucket[0]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-org-state][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-outputs"].google_storage_bucket.bucket[0]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-org-state"].google_storage_bucket_iam_binding.authoritative["roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-org-state/roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-org-state"].google_storage_bucket_iam_binding.authoritative["$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-org-state/organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-outputs"].google_storage_bucket_iam_binding.authoritative["$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-outputs/organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-outputs"].google_storage_bucket_iam_binding.authoritative["roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-outputs/roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder.folder["2-networking/"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state/2-networking/][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder.folder["3-data-platform-dev/"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state/3-data-platform-dev/][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder.folder["2-project-factory/"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state/2-project-factory/][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder.folder["2-security/"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state/2-security/][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder.folder["1-vpcsc/"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-stage-state/1-vpcsc/][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["3-data-platform-dev/roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/3-data-platform-dev//roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-networking/$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-networking//organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-security/$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-security//organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["1-vpcsc/$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/1-vpcsc//organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["3-data-platform-dev/$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/3-data-platform-dev//organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-project-factory/roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-project-factory//roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["1-vpcsc/roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/1-vpcsc//roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-security/roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-security//roles/storage.admin][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-project-factory/$custom_roles:storage_viewer"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-project-factory//organizations/845016637229/roles/storageViewer][0m
+[0m[1mmodule.factory.module.buckets["iac-0/iac-stage-state"].google_storage_managed_folder_iam_binding.authoritative["2-networking/roles/storage.admin"]: Refreshing state... [id=b/rjh01-prod-iac-core-0-iac-stage-state/managedFolders/2-networking//roles/storage.admin][0m
+[0m[1mterraform_data.precondition-cicd: Refreshing state... [id=689be37a-00e2-42af-2097-a767dfdc9c6e][0m
+[0m[1mgoogle_storage_bucket_object.version[0]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-versions/0-org-setup-version.txt][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_custom_constraint.constraint["custom.denyBridgePerimeters"]: Refreshing state... [id=organizations/845016637229/customConstraints/custom.denyBridgePerimeters][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_audit_config.default["sts.googleapis.com"]: Refreshing state... [id=845016637229/audit_config/sts.googleapis.com][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_user_security_sa"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.user/serviceAccount:iac-security-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_viewer_org_ro"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.viewer/serviceAccount:iac-org-ro@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_admin_org_admins"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.admin/group:gcp-organization-admins@mariannhart.co.uk][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_user_pf_sa"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.user/serviceAccount:iac-pf-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_admin_org_sa"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.admin/serviceAccount:iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.billing-accounts["default"].google_billing_account_iam_member.bindings["billing_user_networking_sa"]: Refreshing state... [id=01A7DC-5ED07C-6DF697/roles/billing.user/serviceAccount:iac-networking-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/iam.organizationRoleAdmin"]: Refreshing state... [id=845016637229/roles/iam.organizationRoleAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.xpnAdmin"]: Refreshing state... [id=845016637229/roles/compute.xpnAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["$custom_roles:tag_viewer"]: Refreshing state... [id=845016637229/organizations/845016637229/roles/tagViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.orgFirewallPolicyUser"]: Refreshing state... [id=845016637229/roles/compute.orgFirewallPolicyUser][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/logging.viewer"]: Refreshing state... [id=845016637229/roles/logging.viewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.viewer"]: Refreshing state... [id=845016637229/roles/compute.viewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/iam.workforcePoolViewer"]: Refreshing state... [id=845016637229/roles/iam.workforcePoolViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/owner"]: Refreshing state... [id=845016637229/roles/owner][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/billing.creator"]: Refreshing state... [id=845016637229/roles/billing.creator][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.tagAdmin"]: Refreshing state... [id=845016637229/roles/resourcemanager.tagAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/essentialcontacts.viewer"]: Refreshing state... [id=845016637229/roles/essentialcontacts.viewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/cloudsupport.admin"]: Refreshing state... [id=845016637229/roles/cloudsupport.admin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.folderViewer"]: Refreshing state... [id=845016637229/roles/resourcemanager.folderViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["$custom_roles:organization_admin_viewer"]: Refreshing state... [id=845016637229/organizations/845016637229/roles/organizationAdminViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/cloudasset.viewer"]: Refreshing state... [id=845016637229/roles/cloudasset.viewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/cloudsupport.techSupportEditor"]: Refreshing state... [id=845016637229/roles/cloudsupport.techSupportEditor][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/accesscontextmanager.policyReader"]: Refreshing state... [id=845016637229/roles/accesscontextmanager.policyReader][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/logging.admin"]: Refreshing state... [id=845016637229/roles/logging.admin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/essentialcontacts.admin"]: Refreshing state... [id=845016637229/roles/essentialcontacts.admin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.osAdminLogin"]: Refreshing state... [id=845016637229/roles/compute.osAdminLogin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.projectMover"]: Refreshing state... [id=845016637229/roles/resourcemanager.projectMover][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.tagUser"]: Refreshing state... [id=845016637229/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/accesscontextmanager.policyAdmin"]: Refreshing state... [id=845016637229/roles/accesscontextmanager.policyAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/iam.organizationRoleViewer"]: Refreshing state... [id=845016637229/roles/iam.organizationRoleViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.projectCreator"]: Refreshing state... [id=845016637229/roles/resourcemanager.projectCreator][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/serviceusage.serviceUsageViewer"]: Refreshing state... [id=845016637229/roles/serviceusage.serviceUsageViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.folderAdmin"]: Refreshing state... [id=845016637229/roles/resourcemanager.folderAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/cloudasset.owner"]: Refreshing state... [id=845016637229/roles/cloudasset.owner][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.osLoginExternalUser"]: Refreshing state... [id=845016637229/roles/compute.osLoginExternalUser][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/iam.workforcePoolAdmin"]: Refreshing state... [id=845016637229/roles/iam.workforcePoolAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.organizationAdmin"]: Refreshing state... [id=845016637229/roles/resourcemanager.organizationAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/orgpolicy.policyAdmin"]: Refreshing state... [id=845016637229/roles/orgpolicy.policyAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/orgpolicy.policyViewer"]: Refreshing state... [id=845016637229/roles/orgpolicy.policyViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/compute.orgFirewallPolicyAdmin"]: Refreshing state... [id=845016637229/roles/compute.orgFirewallPolicyAdmin][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.authoritative["roles/resourcemanager.tagViewer"]: Refreshing state... [id=845016637229/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.bindings["pf_org_policy_viewer"]: Refreshing state... [id=845016637229/roles/orgpolicy.policyViewer/Project factory org policy viewer//resource.matchTag('845016637229/context', 'project-factory')][0m
+[0m[1mmodule.organization-iam[0].google_organization_iam_binding.bindings["pf_org_policy_admin"]: Refreshing state... [id=845016637229/roles/orgpolicy.policyAdmin/Project factory org policy admin//resource.matchTag('845016637229/context', 'project-factory')][0m
+[0m[1mlocal_file.providers["3-data-platform-dev"]: Refreshing state... [id=82fd732a7283431307686958ee74a00157eaaf6e][0m
+[0m[1mlocal_file.providers["1-vpcsc-ro"]: Refreshing state... [id=11a3f155756b0bdf6206cf7b84b70058789cd97f][0m
+[0m[1mlocal_file.providers["2-project-factory"]: Refreshing state... [id=864e66c644e4e2ccf2069bc7a34cddd0c1c1fe3e][0m
+[0m[1mlocal_file.providers["3-data-platform-dev-ro"]: Refreshing state... [id=dbb9760644575c8b5e0e514ff9d95ad7139d1f2b][0m
+[0m[1mlocal_file.providers["2-project-factory-ro"]: Refreshing state... [id=1ecc20de6a69f3e86af960448d978c86d1b1f6c5][0m
+[0m[1mlocal_file.providers["0-org-setup"]: Refreshing state... [id=1423ddf168331f2a656280cb010ea75344fb226a][0m
+[0m[1mlocal_file.providers["2-security-ro"]: Refreshing state... [id=421c9695fb0f69ee1f7665383bb3c18eb5a63310][0m
+[0m[1mlocal_file.providers["0-org-setup-ro"]: Refreshing state... [id=0bf39ccbfbef9f8a8c8f7e51582e5259b99d8bc5][0m
+[0m[1mlocal_file.providers["1-vpcsc"]: Refreshing state... [id=8d4d3d9af6a0627955764bfecf120de0ca494dd8][0m
+[0m[1mlocal_file.providers["2-networking"]: Refreshing state... [id=34c190035f32bd32c799d84d503f9a0b6273950f][0m
+[0m[1mlocal_file.providers["2-networking-ro"]: Refreshing state... [id=c7ce220fac76a8bee9dead6d56f78d43c1be6fc2][0m
+[0m[1mlocal_file.providers["2-security"]: Refreshing state... [id=b5e159ed429485070dab3c245f10c19e74c932fe][0m
+[0m[1mgoogle_storage_bucket_object.providers["0-org-setup-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/0-org-setup-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["1-vpcsc"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/1-vpcsc-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["0-org-setup"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/0-org-setup-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["3-data-platform-dev-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/3-data-platform-dev-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-networking-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-networking-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-networking"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-networking-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["3-data-platform-dev"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/3-data-platform-dev-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-project-factory"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-project-factory-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["1-vpcsc-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/1-vpcsc-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-project-factory-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-project-factory-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-security-ro"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-security-ro-providers.tf][0m
+[0m[1mgoogle_storage_bucket_object.providers["2-security"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-providers/2-security-providers.tf][0m
+[0m[1mmodule.organization-iam[0].google_logging_organization_sink.sink["audit-logs"]: Refreshing state... [id=organizations/845016637229/sinks/audit-logs][0m
+[0m[1mmodule.organization-iam[0].google_logging_organization_sink.sink["iam"]: Refreshing state... [id=organizations/845016637229/sinks/iam][0m
+[0m[1mmodule.organization-iam[0].google_logging_organization_sink.sink["vpc-sc"]: Refreshing state... [id=organizations/845016637229/sinks/vpc-sc][0m
+[0m[1mmodule.organization-iam[0].google_tags_tag_value_iam_binding.default["environment/production:roles/resourcemanager.tagViewer"]: Refreshing state... [id=tagValues/281477749589446/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.organization-iam[0].google_tags_tag_value_iam_binding.default["environment/development:roles/resourcemanager.tagViewer"]: Refreshing state... [id=tagValues/281482733144017/roles/resourcemanager.tagViewer][0m
+[0m[1mmodule.organization-iam[0].google_tags_tag_value_iam_binding.default["environment/production:roles/resourcemanager.tagUser"]: Refreshing state... [id=tagValues/281477749589446/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.organization-iam[0].google_tags_tag_value_iam_binding.default["environment/development:roles/resourcemanager.tagUser"]: Refreshing state... [id=tagValues/281482733144017/roles/resourcemanager.tagUser][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.automaticIamGrantsForDefaultServiceAccounts"]: Refreshing state... [id=organizations/845016637229/policies/iam.automaticIamGrantsForDefaultServiceAccounts][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.vmExternalIpAccess"]: Refreshing state... [id=organizations/845016637229/policies/compute.vmExternalIpAccess][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.allowedPolicyMemberDomains"]: Refreshing state... [id=organizations/845016637229/policies/iam.allowedPolicyMemberDomains][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.disableInternetNetworkEndpointGroup"]: Refreshing state... [id=organizations/845016637229/policies/compute.disableInternetNetworkEndpointGroup][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["cloudbuild.useBuildServiceAccount"]: Refreshing state... [id=organizations/845016637229/policies/cloudbuild.useBuildServiceAccount][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["run.managed.requireInvokerIam"]: Refreshing state... [id=organizations/845016637229/policies/run.managed.requireInvokerIam][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.disableAuditLoggingExemption"]: Refreshing state... [id=organizations/845016637229/policies/iam.disableAuditLoggingExemption][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.serviceAccountKeyExposureResponse"]: Refreshing state... [id=organizations/845016637229/policies/iam.serviceAccountKeyExposureResponse][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["storage.uniformBucketLevelAccess"]: Refreshing state... [id=organizations/845016637229/policies/storage.uniformBucketLevelAccess][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.restrictLoadBalancerCreationForTypes"]: Refreshing state... [id=organizations/845016637229/policies/compute.restrictLoadBalancerCreationForTypes][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["run.allowedIngress"]: Refreshing state... [id=organizations/845016637229/policies/run.allowedIngress][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["sql.restrictPublicIp"]: Refreshing state... [id=organizations/845016637229/policies/sql.restrictPublicIp][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.disableVpcExternalIpv6"]: Refreshing state... [id=organizations/845016637229/policies/compute.disableVpcExternalIpv6][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.skipDefaultNetworkCreation"]: Refreshing state... [id=organizations/845016637229/policies/compute.skipDefaultNetworkCreation][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.trustedImageProjects"]: Refreshing state... [id=organizations/845016637229/policies/compute.trustedImageProjects][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.disableServiceAccountKeyCreation"]: Refreshing state... [id=organizations/845016637229/policies/iam.disableServiceAccountKeyCreation][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["storage.publicAccessPrevention"]: Refreshing state... [id=organizations/845016637229/policies/storage.publicAccessPrevention][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.disableNestedVirtualization"]: Refreshing state... [id=organizations/845016637229/policies/compute.disableNestedVirtualization][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["essentialcontacts.allowedContactDomains"]: Refreshing state... [id=organizations/845016637229/policies/essentialcontacts.allowedContactDomains][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["cloudbuild.useComputeServiceAccount"]: Refreshing state... [id=organizations/845016637229/policies/cloudbuild.useComputeServiceAccount][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.managed.disableServiceAccountApiKeyCreation"]: Refreshing state... [id=organizations/845016637229/policies/iam.managed.disableServiceAccountApiKeyCreation][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["custom.denyBridgePerimeters"]: Refreshing state... [id=organizations/845016637229/policies/custom.denyBridgePerimeters][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.requireOsLogin"]: Refreshing state... [id=organizations/845016637229/policies/compute.requireOsLogin][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.workloadIdentityPoolAwsAccounts"]: Refreshing state... [id=organizations/845016637229/policies/iam.workloadIdentityPoolAwsAccounts][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["container.managed.enablePrivateNodes"]: Refreshing state... [id=organizations/845016637229/policies/container.managed.enablePrivateNodes][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["gcp.resourceLocations"]: Refreshing state... [id=organizations/845016637229/policies/gcp.resourceLocations][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.workloadIdentityPoolProviders"]: Refreshing state... [id=organizations/845016637229/policies/iam.workloadIdentityPoolProviders][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.setNewProjectDefaultToZonalDNSOnly"]: Refreshing state... [id=organizations/845016637229/policies/compute.setNewProjectDefaultToZonalDNSOnly][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["cloudbuild.disableCreateDefaultServiceAccount"]: Refreshing state... [id=organizations/845016637229/policies/cloudbuild.disableCreateDefaultServiceAccount][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.disableSerialPortAccess"]: Refreshing state... [id=organizations/845016637229/policies/compute.disableSerialPortAccess][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["storage.restrictAuthTypes"]: Refreshing state... [id=organizations/845016637229/policies/storage.restrictAuthTypes][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["iam.disableServiceAccountKeyUpload"]: Refreshing state... [id=organizations/845016637229/policies/iam.disableServiceAccountKeyUpload][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["sql.restrictAuthorizedNetworks"]: Refreshing state... [id=organizations/845016637229/policies/sql.restrictAuthorizedNetworks][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.disableGuestAttributesAccess"]: Refreshing state... [id=organizations/845016637229/policies/compute.disableGuestAttributesAccess][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["storage.secureHttpTransport"]: Refreshing state... [id=organizations/845016637229/policies/storage.secureHttpTransport][0m
+[0m[1mmodule.organization-iam[0].google_org_policy_policy.default["compute.restrictProtocolForwardingCreationForTypes"]: Refreshing state... [id=organizations/845016637229/policies/compute.restrictProtocolForwardingCreationForTypes][0m
+[0m[1mmodule.organization-iam[0].google_project_iam_member.bucket-sinks-binding["vpc-sc"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/logging.bucketWriter/serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com/vpc-sc bucket writer/Grants bucketWriter to serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com used by log sink vpc-sc on organizations/845016637229/resource.name.endsWith('projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/vpc-sc')][0m
+[0m[1mmodule.organization-iam[0].google_project_iam_member.bucket-sinks-binding["audit-logs"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/logging.bucketWriter/serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com/audit-logs bucket writer/Grants bucketWriter to serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com used by log sink audit-logs on organizations/845016637229/resource.name.endsWith('projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/audit-logs')][0m
+[0m[1mmodule.organization-iam[0].google_project_iam_member.bucket-sinks-binding["iam"]: Refreshing state... [id=rjh01-prod-audit-logs-0/roles/logging.bucketWriter/serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com/iam bucket writer/Grants bucketWriter to serviceAccount:service-org-845016637229@gcp-sa-logging.iam.gserviceaccount.com used by log sink iam on organizations/845016637229/resource.name.endsWith('projects/rjh01-prod-audit-logs-0/locations/europe-west2/buckets/iam')][0m
+[0m[1mlocal_file.tfvars["globals"]: Refreshing state... [id=a81ab76c22394e2a6007bb6632d376f612b20a05][0m
+[0m[1mlocal_file.tfvars["org-setup"]: Refreshing state... [id=d23c3c9da961d6a7f3b247e1886f3eadb5723ecf][0m
+[0m[1mgoogle_storage_bucket_object.tfvars["globals"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-tfvars/0-globals.auto.tfvars.json][0m
+[0m[1mgoogle_storage_bucket_object.tfvars["org-setup"]: Refreshing state... [id=rjh01-prod-iac-core-0-iac-outputs-tfvars/0-org-setup.auto.tfvars.json][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mValue for undeclared variable[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe root module does not declare a variable named "automation" but a value
+[33m│[0m [0mwas found in file "0-org-setup.auto.tfvars.json". If you meant to use this
+[33m│[0m [0mvalue, add a "variable" block to the configuration.
+[33m│[0m [0m
+[33m│[0m [0mTo silence these warnings, use TF_VAR_... environment variables to provide
+[33m│[0m [0mcertain "global" settings to all configurations in your organization. To
+[33m│[0m [0mreduce the verbosity of these warnings, use the -compact-warnings option.
+[33m╵[0m[0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mValue for undeclared variable[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe root module does not declare a variable named "folder_ids" but a value
+[33m│[0m [0mwas found in file "0-org-setup.auto.tfvars.json". If you meant to use this
+[33m│[0m [0mvalue, add a "variable" block to the configuration.
+[33m│[0m [0m
+[33m│[0m [0mTo silence these warnings, use TF_VAR_... environment variables to provide
+[33m│[0m [0mcertain "global" settings to all configurations in your organization. To
+[33m│[0m [0mreduce the verbosity of these warnings, use the -compact-warnings option.
+[33m╵[0m[0m
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mValues for undeclared variables[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mIn addition to the other similar warnings shown, 10 other variable(s)
+[33m│[0m [0mdefined without being declared.
+[33m╵[0m[0m
