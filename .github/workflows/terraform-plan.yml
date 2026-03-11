@@ -32,6 +32,11 @@ permissions:
 jobs:
   plan:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: fast/stages/0-org-setup    
+
     steps:
       - uses: actions/checkout@v4
 
@@ -65,14 +70,22 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
 
-      - name: Terraform init & plan
-        working-directory: fast/stages/0-org-setup
+      - name: Terraform init
+        #working-directory: fast/stages/0-org-setup
         run: |
           # ensure the CI copies the plan provider file (RO) so plan uses the RO provider
           cp datasets/classic/0-org-setup-providers-ro.tf providers.tf || true
           cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
           terraform init -input=false
-          terraform plan -out=tfplan -lock=false
+
+      - name: Terraform Format & Validate
+        run: |
+          terraform fmt -check
+          terraform validate
+
+      - name: Terraform Plan
+        run: terraform plan -no-color
+
       - name: Upload plan
         uses: actions/upload-artifact@v4
         # the plan file is created in the terraform working-directory
