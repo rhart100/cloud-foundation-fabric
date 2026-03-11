@@ -51,6 +51,9 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
+        # copy the apply (RW) provider and variables files into place
+        cp datasets/classic/0-org-setup-providers-rw.tf providers.tf || true
+        cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
         run: terraform init -input=false
 
       # Run Plan for PRs to verify changes before merge
@@ -62,7 +65,4 @@ jobs:
       - name: Terraform Apply
         if: github.event_name == 'push' && github.ref == 'refs/heads/prod'
         run: |
-          # copy the apply (RW) provider and variables files into place
-          cp datasets/classic/0-org-setup-providers-rw.tf providers.tf || true
-          cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
           terraform apply -auto-approve
