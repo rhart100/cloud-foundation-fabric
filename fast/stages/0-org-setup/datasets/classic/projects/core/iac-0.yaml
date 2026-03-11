@@ -167,32 +167,24 @@ service_accounts:
   # IaC service accounts for this stage
   iac-org-ro:
     display_name: IaC service account for org setup (read-only).
-    iam_sa_roles:
-      $service_account_ids:iac-0/iac-org-ro:
-        - roles/iam.serviceAccountTokenCreator
   iac-org-rw:
     display_name: IaC service account for org setup (read-write).
-    iam_sa_roles:
-      $service_account_ids:iac-0/iac-org-rw:
-        - roles/iam.serviceAccountTokenCreator
   # CI/CD service accounts for this stage
   iac-org-cicd-ro:
     display_name: IaC service account for org setup CI/CD (read-only).
     iam_sa_roles:
-      $service_account_ids:iac-0/iac-org-cicd-ro:
-        - roles/iam.serviceAccountTokenCreator
       $service_account_ids:iac-0/iac-org-ro:
         - roles/iam.workloadIdentityUser
+        - roles/iam.serviceAccountTokenCreator
+      $service_account_ids:iac-0/iac-org-cicd-ro:
         - roles/iam.serviceAccountTokenCreator
   iac-org-cicd-rw:
     display_name: IaC service account for org setup CI/CD (read-write).
     iam_sa_roles:
-      $service_account_ids:iac-0/iac-org-cicd-rw:
-        - roles/iam.serviceAccountTokenCreator
       $service_account_ids:iac-0/iac-org-rw:
         - roles/iam.workloadIdentityUser
         - roles/iam.serviceAccountTokenCreator
-      $service_account_ids:iac-0/iac-org-ro:
+      $service_account_ids:iac-0/iac-org-cicd-rw:
         - roles/iam.serviceAccountTokenCreator
   # IaC service accounts for vpc-sc stage
   iac-vpcsc-ro:
@@ -229,4 +221,4 @@ workload_identity_pools:
         identity_provider:
           oidc:
             template: github
-## this is incredibly  painful!!!
+## this is painful
