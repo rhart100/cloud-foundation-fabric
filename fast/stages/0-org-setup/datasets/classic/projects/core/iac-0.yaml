@@ -153,6 +153,7 @@ buckets:
         - $iam_principals:service_accounts/iac-0/iac-security-rw
         - $iam_principals:service_accounts/iac-0/iac-pf-rw
         - $iam_principals:service_accounts/iac-0/iac-vpcsc-rw
+        - $iam_principals:service_accounts/iac-0/iac-org-cicd-rw
       $custom_roles:storage_viewer:
         - $iam_principals:service_accounts/iac-0/iac-org-ro
         - $iam_principals:service_accounts/iac-0/iac-dp-dev-ro
@@ -216,3 +217,4 @@ workload_identity_pools:
         identity_provider:
           oidc:
             template: github
+## this is painful
