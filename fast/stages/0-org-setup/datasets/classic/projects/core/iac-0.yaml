@@ -104,8 +104,10 @@ buckets:
     iam:
       roles/storage.admin:
         - $iam_principals:service_accounts/iac-0/iac-org-rw
+        - $iam_principals:service_accounts/iac-0/iac-org-cicd-rw
       $custom_roles:storage_viewer:
         - $iam_principals:service_accounts/iac-0/iac-org-ro
+        - $iam_principals:service_accounts/iac-0/iac-org-cicd-ro
   # Terraform state bucket for additional FAST stages
   iac-stage-state:
     description: Terraform state for stage automation.
