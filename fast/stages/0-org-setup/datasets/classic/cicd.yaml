@@ -16,7 +16,7 @@
 
 org-setup:
   provider_files:
-    apply: 0-org-setup-providers.tf
+    apply: 0-org-setup-providers-rw.tf
     plan: 0-org-setup-providers-ro.tf
   repository:
     name: rhart100/cloud-foundation-fabric
