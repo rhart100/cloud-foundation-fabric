@@ -22,7 +22,13 @@ terraform {
 }
 provider "google" {
   impersonate_service_account = "iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com"
+  project               = "rjh01-prod-iac-core-0"
+  user_project_override = true
+  billing_project       = "rjh01-prod-iac-core-0"
 }
 provider "google-beta" {
   impersonate_service_account = "iac-org-rw@rjh01-prod-iac-core-0.iam.gserviceaccount.com"
+  project               = "rjh01-prod-iac-core-0"
+  user_project_override = true
+  billing_project       = "rjh01-prod-iac-core-0"
 }
