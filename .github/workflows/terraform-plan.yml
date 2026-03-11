@@ -58,9 +58,9 @@ jobs:
       - name: 'Download Provider File'
         run: |
           # download into the terraform working directory so files are available when running there
-          mkdir -p fast/stages/0-org-setup
-          gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/providers/0-org-setup-providers.tf fast/stages/0-org-setup/ || true
-          gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/tfvars/0-org-setup.auto.tfvars.json fast/stages/0-org-setup/ || true
+          #mkdir -p fast/stages/0-org-setup
+          #gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/providers/0-org-setup-providers.tf fast/stages/0-org-setup/ || true
+          #gcloud storage cp gs://rjh01-prod-iac-core-0-iac-outputs/tfvars/0-org-setup.auto.tfvars.json fast/stages/0-org-setup/ || true
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
@@ -69,8 +69,8 @@ jobs:
         working-directory: fast/stages/0-org-setup
         run: |
           # ensure the CI copies the plan provider file (RO) so plan uses the RO provider
-          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup-providers-ro.tf providers.tf || true
-          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup.auto.tfvars.json 0-org-setup.auto.tfvars.json || true
+          cp datasets/classic/0-org-setup-providers-ro.tf providers.tf || true
+          cp datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
           terraform init -input=false
           terraform plan -out=tfplan
       - name: Upload plan
