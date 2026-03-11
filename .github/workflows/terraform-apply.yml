@@ -14,9 +14,10 @@
 
 name: Terraform Apply
 
-on: workflow_dispatch
-#  push:
-#    branches: [ "prod" ]
+on:
+  pull_request:
+    branches: [ "prod" ]
+  workflow_dispatch:
 
 permissions:
   id-token: write
