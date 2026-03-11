@@ -41,7 +41,7 @@ jobs:
         working-directory: fast/stages/0-org-setup
         run: |
           # copy the apply (RW) provider file into place
-          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup-providers.tf providers.tf || true
-          #cp fast/stages/0-org-setup/datasets/classic/0-org-setup.auto.tfvars.json 0-org-setup.auto.tfvars.json || true
+          cp fast/stages/0-org-setup/datasets/classic/0-org-setup-providers-rw.tf providers.tf || true
+          cp fast/stages/0-org-setup/datasets/classic/auto.tfvars.json 0-org-setup.auto.tfvars.json || true
           terraform init -input=false
           terraform apply -auto-approve
